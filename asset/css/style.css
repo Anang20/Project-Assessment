@@ -1,0 +1,53 @@
+body {
+    background: #FFF;
+    margin: 0;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+img {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+#featured-post {
+    background-image: url(../img/bus.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 110px;
+}
+
+#featured-post .wrapper {
+    width: 500px;
+    color: #fff;
+}
+
+#featured-post .wrapper a.category {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+#featured-post .wrapper h2 {
+    font-size: 48px;
+    letter-spacing: 2px;
+    margin: 10px 0;
+}
+
+#content {
+    width: 70%;
+    float: left;
+}
+
+
+.clearfix {
+    clear: both;
+}
+
